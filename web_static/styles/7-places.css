@@ -1,0 +1,23 @@
+.container{
+    max-width: 1000px;
+    margin: 30px auto;
+    align-items: center;
+}
+.places{
+    font-size: 30px;
+    color: solid black;
+    
+   
+}
+
+.places article{
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
