@@ -2,22 +2,47 @@
     max-width: 1000px;
     margin: 30px auto;
     align-items: center;
+    
+}
+.title{
+    font-size: 30px;
+    color: solid black;
 }
 .places{
     font-size: 30px;
-    color: solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
     
-   
+    
+    
+
 }
 
-.places article{
+.places .a_suite{
     border: solid #FF5A5F 1px;
     border-radius: 4px;
     width: 390px;
-    padding: 20px;
-    margin: 20px;
-    font-size: 30px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.places .my_home{
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+    width: 390px;
+    display: flex;
+    justify-content: center;
+}
+
+.places .tiny_house{
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+    width: 390px;
+    display: flex;
     justify-content: center;
 }
