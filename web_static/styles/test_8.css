@@ -1,0 +1,84 @@
+.container{
+    max-width: 1000px;
+    margin: 30px auto;
+    align-items: center;
+    
+}
+
+
+.places{
+    font-size: 30px;
+    
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+
+}
+/*Article*/
+article{
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    position: relative;
+    height: 500px;
+    
+    
+}
+
+.price_by_night{
+    color:#FF5A5F;
+    border: solid #FF5A5F 1px;
+    border-radius: 50%;
+    width: 20%;
+    position: absolute;
+    left: 250px;
+    top: 25px;
+    height: 20%;
+    
+}
+.information{
+    height: 80px;
+    border-top: solid #DDDDDD 1px;
+    display: flex;
+    font-size: large;
+    justify-content: space-between;
+
+    
+}
+
+article h2{
+    text-align: left;
+}
+/*
+article img{
+    margin-top: 200px;
+}
+*/
+
+.price{
+    position: absolute;
+    top: 32px;
+    left: 300px;
+    border: solid #FF5A5F 1px;
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    color: #FF5A5F;
+
+}
+
+.user article{
+    display: flex !important;
+    border: none;
+    align-items: flex-start;
+}
